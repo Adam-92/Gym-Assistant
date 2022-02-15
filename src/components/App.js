@@ -1,7 +1,8 @@
-import '../style/index.css';
+import './app_style.css';
 import { useSelector, useDispatch } from "react-redux"
 import { bindActionCreators } from "redux"
 import { actionCreators }  from '../state/index'
+import Login from './login/Login'
 
 function App() {
 /*   const stateAccount = useSelector( (state) => state.account ) 
@@ -10,18 +11,7 @@ function App() {
 */
   return (
     <main className="main-container">
-      <section>
-
-      </section>
-      <section>
-
-      </section>
-      <section>
-
-      </section>
-      <section>
-        
-      </section>
+     <Login />
     </main>
   );
 }

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Heebo:wght@500&display=swap');
+.center-Login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Login{
+    padding: 10px;
+}
+.center-icon-Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+.center-form-Login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.positon-Login{
+    position: relative;
+}
+.login-input-Login,
+.password-input-Login{
+    margin: 8px auto;
+    padding: 20px 150px 20px 64px;
+    border-radius: 30px;
+}
+.positon-absolute-Login{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: rgb(204, 199, 199);
+}
+.submit-Login{
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px 157px;
+    cursor: pointer;
+}
+.container-links-Login{
+    margin-top: 18px;
+}
+.link-Login{
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.link-Login:hover{
+    color: rgb(109, 225, 233);
+}
