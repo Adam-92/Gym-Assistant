@@ -1,0 +1,47 @@
+.background-HomePage{
+    height: 100vh;
+    min-height: 100vh;
+    background: #BE93C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.centerWindow-HomePage{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- dashboard window - change the height to auto ---- */
+.dashboard-HomePage{
+    display: flex;
+    width: 88%;
+    height: 85%;
+    max-width: 1750px;
+    max-height: 790px;
+    border-radius: 2rem;
+    background-color: rgb(128, 128, 185);
+}
+.sidebar-HomePage{
+   /*  border: 1px solid rgb(241, 238, 6); */
+    flex: 0 0 220px;
+}
+.break-HomePage{
+   /*  border: 1px solid rgb(15, 1, 1); */
+    flex-basis: 27px;
+}
+.overwiew-HomePage{
+    /* border: 1px solid rgb(13, 17, 236); */
+    flex-grow:5;
+}
+
+@media (max-width: 575px) {
+
+    .sidebar-HomePage{
+        flex: 0 0 185px
+    }
+    .break-HomePage{
+        flex-basis: 0;
+    }
+
+}

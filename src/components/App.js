@@ -2,7 +2,9 @@ import './app_style.css';
 import { useSelector, useDispatch } from "react-redux"
 import { bindActionCreators } from "redux"
 import { actionCreators }  from '../state/index'
-import Login from './login/Login'
+import RegisterPage from '../pages/register-page/RegisterPage'
+import LoginPage from '../pages/login-page/LoginPage'
+import HomePage from '../pages/home-page/HomePage'
 
 function App() {
 /*   const stateAccount = useSelector( (state) => state.account ) 
@@ -10,9 +12,13 @@ function App() {
      const { depositMoney, withdrawMoney } = bindActionCreators(actionCreators, dispatch)
 */
   return (
-    <main className="main-container">
-     <Login />
-    </main>
+    <HomePage />
+
+/*    <LoginPage /> 
+   <RegisterPage/> */
+
+
+
   );
 }
 

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Heebo:wght@500&family=Poppins:wght@300&display=swap');
+.container-SidebarNavigation{
+    height: 100%;
+}
+.profile-SidebarNavigation{
+    padding: 15px;
+}
+
+.picture-SidebarNavigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-SidebarNavigation{
+    width: 160px;
+    height: 160px;
+    
+}
+.logo-SidebarNavigation img{
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.name-SidebarNavigation h2{
+    color: white;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+.achievement-SidebarNavigation{
+    position: relative;
+    font-weight: 600;
+    padding: 2px 5px 2px 65px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(201, 195, 201);
+    margin: 0 auto 1rem auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.achievement-icon-SidebarNavigation{
+    position: absolute;
+    color: blanchedalmond;
+    left: 14%;
+    font-size: 1.9rem;
+}
+.statistics-SidebarNavigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.time-SidebarNavigation,
+.steps-SidebarNavigation{
+    text-align: center;
+}
+.time-SidebarNavigation p,
+.steps-SidebarNavigation p{
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.tabs-container-SidebarNavigation li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+.tabs-container-SidebarNavigation li:hover{
+    background-color: rgb(231, 11, 231);
+    border-left: 5px solid rgba(255, 255, 255, 0.836);
+    color: white;
+}
+.tabs-container-SidebarNavigation li h3{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0.5rem;
+}
+.tab-icon-SidebarNavigation{
+    font-size: 1.5rem;
+    width: 20%;
+    color: white;
+}
+
