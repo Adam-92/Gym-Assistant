@@ -1,47 +1,66 @@
-.background-HomePage{
-    height: 100vh;
-    min-height: 100vh;
+body,html{
+    height: 100%;
+    min-height: 100%;
+}
+#root{
+    height: 100%;
+    min-height: 100%;
+}
+body{
     background: #BE93C5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.centerWindow-HomePage{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.center-container-HomePage{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 /* --- dashboard window - change the height to auto ---- */
 .dashboard-HomePage{
     display: flex;
-    width: 88%;
-    height: 85%;
-    max-width: 1750px;
-    max-height: 790px;
+    margin: 0 auto;
+    min-height: 85vh;
+    width: 90%;
     border-radius: 2rem;
     background-color: rgb(128, 128, 185);
 }
 .sidebar-HomePage{
    /*  border: 1px solid rgb(241, 238, 6); */
-    flex: 0 0 220px;
+    flex: 1;
+    -webkit-box-shadow: inset -33px 0px 24px -40px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset -33px 0px 24px -40px rgba(66, 68, 90, 1);
+    box-shadow: inset -33px 0px 24px -40px rgba(66, 68, 90, 1);
 }
-.break-HomePage{
-   /*  border: 1px solid rgb(15, 1, 1); */
-    flex-basis: 27px;
-}
+
 .overwiew-HomePage{
     /* border: 1px solid rgb(13, 17, 236); */
-    flex-grow:5;
+    flex: 7;
+}
+.time-HomePage{
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    
 }
 
 @media (max-width: 575px) {
-
-    .sidebar-HomePage{
-        flex: 0 0 185px
+    .dashboard-HomePage{
+        min-height: 100vh;
+        min-width: 100%;
+        height: auto;
+        border-radius: 0;
     }
-    .break-HomePage{
-        flex-basis: 0;
+    .sidebar-HomePage{
+        flex: 0 200px;
+    }
+    .overwiew-HomePage{
+        flex: 1;
+        background-color: rgba(0, 0, 0, 0.5) ;
     }
 
 }
