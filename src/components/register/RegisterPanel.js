@@ -1,9 +1,9 @@
-import '../login/login.css'
-import './register.css'
+import '../login/loginPanel.css'
+import './registerPanel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDumbbell, faUser, faEnvelope, faUnlockKeyhole, faKey } from '@fortawesome/free-solid-svg-icons'
 
-const Register = () => {
+const RegisterPanel = () => {
     return(
       <article className='center-Login'>
         <div className='container-Login'>
@@ -39,4 +39,4 @@ const Register = () => {
     )
 }
 
-export default Register;
+export default RegisterPanel;

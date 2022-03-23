@@ -1,8 +1,8 @@
-import './login.css'
+import './loginPanel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDumbbell, faUser, faKey } from '@fortawesome/free-solid-svg-icons'
 
-const Login = () => {
+const LoginPanel = () => {
     return(
       <article className='center-Login'>
         <div className='container-Login'>
@@ -34,4 +34,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default LoginPanel;
