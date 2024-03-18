@@ -1,3 +1,7 @@
+# TEST ACCOUNT: 
+        Username:  test@gmail.com
+        Password:   12345678
+
 # Gym Assistant Application - React JS, Typescript
 
 - A sports application that supports you in a training, recording your best results, and collecting data on the steps  
